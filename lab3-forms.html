@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+
+<head> 
+<html lang = "en-US">
+<meta charset = "utf-8" / >
+<title> Lab 3 - Forms </title>
+</head>
+
+<body>
+<form action="https://www.w3schools.com/action_page.php" method="get">
+<h1> Coffee Order Form </h1> 
+<p> Please complete the required (*) fields </p>
+<section> 
+<h2> Customer Information </h2>
+
+<p> <label for="customer name"> Name(*):</label>
+<input id="customer name" type="text" name=" customer name" required /> </p>
+
+<p> <label for="customer email"> Email(*):</label>
+<input id="customer email" type="email" name=" email address" required /> </p>
+
+</section>
+
+<section>
+<h2> Coffee Order </h2>
+
+<p> <label for="coffee type"> 
+<span> Coffee Type(*): </span>
+</label>
+<select id="coffee-type" name=" coffee type" required>
+<option value="Americano">Americano</option>
+<option value="Latte">Latte</option>
+<option value="Cappuccino">Cappuccino</option>
+<option value="Espresso">Espresso</option>
+<option value="Iced">Iced</option>
+<option value="French Press">French Press</option>
+<option value="Cold Brew">Cold Brew</option>
+<option value="Macchiato">Macchiato</option>
+</select>
+</p>
+
+<fieldset>
+<legend> Size(*): </legend>
+<ul>
+<li> <label for="size small"> Small</label>
+<input id="size small" type="radio" name=" size"
+value="size small" required /> </li>
+
+<li> <label for="size medium"> Medium</label>
+<input id="size medium" type="radio" name=" size"
+value="size medium"  /> </li>
+
+<li> <label for="size large"> Large</label>
+<input id="size large" type="radio" name=" size"
+value="size large" /> </li>
+</ul>
+</fieldset>
+
+<p> </p>
+
+
+<fieldset>
+<legend> Please select any additional requests (Optional): </legend>
+<ul>
+<li> <label for="whipped cream">Whipped Cream</label>
+<input type="checkbox" id="whipped cream" name=" special request" value="whipped cream" /> </li>
+
+<li> <label for="extra shot">Extra Shot</label>
+<input type="checkbox" id="extra shot" name=" special request" value="extra shot" /> </li>
+
+<li> <label for="almond milk">Almond Milk</label>
+<input type="checkbox" id="almond milk" name=" special request" value="almond milk" /> </li>
+
+<li> <label for="caramel drizzle">Caramel Drizzle</label>
+<input type="checkbox" id="caramel drizzle" name=" special request" value="caramel drizzle" /> </li>
+
+<li> <label for="soy milk">Soy Milk</label>
+<input type="checkbox" id="soy milk" name=" special request" value="soy milk" /> </li>
+
+<li> <label for="chocolate shavings">Chocolate Shavings</label>
+<input type="checkbox" id="chocolate shavings" name=" special request" value="chocolate shavings" /> </li>
+
+<li> <label for="cinnamon">Cinnamon</label>
+<input type="checkbox" id="cinnamon" name=" special request" value="cinnamon" /> </li>
+
+<li> <label for="honey">Honey</label>
+<input type="checkbox" id="honey" name=" special request" value="honey" /> </li>
+</ul>
+</fieldset>
+
+<p> </p>
+
+<label for="special instructions"> Special Instructions (Optional):</label>
+<p> <textarea id="special instructions" name=" special instructions" cols="80" rows="10"> </textarea> </p>
+
+
+<p> </p>
+
+<p> <button type="submit"> Place order! </button> </p>
+
+</section>
+
+<p> The purpose of this assignment was for me to create and format an HTML form, including multiple types of user input such as text boxes, drop-down menus, checkboxes, and radio buttons. 
+
+</form>
+</body>
+</html>
