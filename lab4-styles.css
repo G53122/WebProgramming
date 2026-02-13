@@ -1,11 +1,19 @@
 * {
-  background-color: AliceBlue;
+  background-color: Azure;
   font-family: sans-serif;
 }
 
 h1 {
-  color: Aqua;
+  color: LightSlateGrey;
   text-align: center;
 }
 
+p {
+  color: LightBlue;
+  padding: 10px;
+}
+
+  
+  
+  
 
