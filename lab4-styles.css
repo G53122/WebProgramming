@@ -1,6 +1,10 @@
 * {
-  background-color: AliceBlue
-  font-family: sans-serif
+  background-color: AliceBlue;
+  font-family: sans-serif;
 }
+
+h1 {
+  color: Aqua;
+  text-align: center;
 
 
