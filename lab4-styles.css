@@ -1,5 +1,5 @@
 * {
-  background-color: Snow;
+  background-color: Azure;
   font-family: sans-serif;
 }
 
@@ -15,8 +15,12 @@ p {
 
 ul li {
   color: RebeccaPurple;
-  bullet-color: Indigo;
 }
+
+li::marker {
+  color: Black;
+}
+
 
 
   
