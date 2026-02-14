@@ -1,5 +1,5 @@
 * {
-  background-color: SeaShell;
+  background-color: Snow;
   font-family: sans-serif;
 }
 
@@ -12,6 +12,12 @@ p {
   color: SlateBlue;
   padding: 10px;
 }
+
+ul li {
+  color: RebeccaPurple;
+  bullet-color: Indigo;
+}
+
 
   
   
