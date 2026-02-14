@@ -29,6 +29,16 @@ a:hover {
   text-decoration: none;
 }
 
+.styled-box {
+  border-radius: 0.5em;
+  border-color: MidnightBlue;
+  background-color: LightGray;
+  padding: 15px;
+  text-align: center;
+}
+
+  
+
 
 
 
