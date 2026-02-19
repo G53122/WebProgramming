@@ -30,7 +30,7 @@ a:hover {
 }
 
 .styled-box {
-  border-radius: 1em;
+  border-radius: 5px;
   border-color: Black;
   background-color: LightGray;
   padding: 15px;
