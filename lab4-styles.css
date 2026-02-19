@@ -32,6 +32,7 @@ a:hover {
 .styled-box {
   border: 5px solid MidnightBlue;
   background-color: LightGray;
+  padding: 10px;
   text-align: center;
 }
 
