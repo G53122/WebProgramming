@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Haven</title>
+  <style>
+
+body {
+font: georgia;
+font-size: 15px;
+background-color: linen;
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 2fr 3fr 1fr;
+gap: 10px;
+}
+
+header {
+border: 3px solid saddlebrown;
+padding: 10px;
+background-color: peachpuff;
+text-align: center;
+grid-column: 1 / 3;
+grid-row: 1;
+}
+
+nav {
+grid-column: 1;
+grid-row: 2;
+border: 3px solid saddlebrown;
+background-color: papayawhip;
+}
+
+main {
+grid-column: 2;
+grid-row: 2;
+border: 3px solid saddlebrown;
+text-align: center;
+background-color: papayawhip;
+}
+
+footer {
+border: 3px solid saddlebrown;
+padding: 10px;
+background-color: peachpuff;
+text-align: center;
+grid-column: 1 / 3;
+grid-row: 3;
+}
+
+.flex-container {
+display: flex;
+flex-flow: column;
+align-items: center;
+justify-content: space-around;
+color: saddlebrown;
+}
+
+.flex-container div {
+height: 25px;
+}
+
+h1, h2 {
+color: saddlebrown;
+}
+
+p {
+color: chocolate;
+}
+
+a {
+color: chocolate;
+}
+
+a:hover {
+color: saddlebrown;
+}
+
+ul li {
+margin: 2rem;
+list-style-type: circle;
+}
+
+</style>
+</head>
+<body>
+  <header class="header">
+    <h1>Java Haven</h1>
+    <p>Your daily dose of caffeine and comfort.</p>
+  </header>
+  
+  <nav class="nav">
+    <ul>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main class="main-content">
+    <h2>Featured Coffees</h2>
+    <div class="flex-container">
+      <div class="flex-item">Espresso</div>
+      <div class="flex-item">Cappuccino</div>
+      <div class="flex-item">Latte</div>
+      <div class="flex-item">Mocha</div>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <p>&copy; 2025 Java Haven. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
